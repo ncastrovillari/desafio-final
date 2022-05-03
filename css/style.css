@@ -165,7 +165,7 @@ h1 {
 
 .redes-footer {
     display: flex;
-    width: 60px;
+    width: 60px; 
     justify-content: space-around;
     padding-right: 25px;
 }
