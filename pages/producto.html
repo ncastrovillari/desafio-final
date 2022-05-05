@@ -1,44 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hind&family=Josefin+Sans&family=Square+Peg&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <title>Bodega Creación | Producto</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Hind&family=Josefin+Sans&family=Square+Peg&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <meta name="viewport" content="initial-scale=1.0">
+        <title>Bodega Creación | Historia</title>
+    </head>
 
 <body>
     <header class="header-bodega">
-        <div class="div-logo">
-            <a link rel="index" href="../index.html" title="Inicio"> <img class="header-logo" src="../assets/logo.png"
-                    alt="Logo"> </a>
-        </div>
-        <nav class="nav-bodega">
-            <ul class="list-bodega">
-                <li class="list-element-bodega">
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li class="list-element-bodega">
-                    <a href="historia.html">Historia</a>
-                </li>
-                <li class="list-element-bodega">
-                    <a href="bodega.html">Bodega</a>
-                </li>
-                <li class="list-element-bodega">
-                    <a href="producto.html">Producto</a>
-                </li>
-                <li class="list-element-bodega">
-                    <a href="contacto.html">Contacto</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light w-100">
+            <div class="container-fluid">
+                <div class="div-logo">
+                    <a link rel="index" href="../index.html" title="Inicio"> <img class="header-logo"
+                            src="../assets/logo.png" alt="Logo"> </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item list-element-bodega">
+                            <a class="nav-link" style="color: black;" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item list-element-bodega">
+                            <a class="nav-link" style="color: black;" href="historia.html">Historia</a>
+                        </li>
+                        <li class="nav-item list-element-bodega">
+                            <a class="nav-link" style="color: black;" href="bodega.html">Bodega</a>
+                        </li>
+                        <li class="nav-item list-element-bodega">
+                            <a class="nav-link" style="color: black;" href="producto.html">Producto</a>
+                        </li>
+                        <li class="nav-item list-element-bodega">
+                            <a class="nav-link" style="color: black;" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -94,13 +105,11 @@
             <img src="../assets/facebook.png"></a>
     </footer>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            disable: function () {
-                var maxWidth = 960
-            }
-        });
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
     </script>
 </body>
 
