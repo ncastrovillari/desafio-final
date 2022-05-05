@@ -32,9 +32,23 @@
     padding-right: 20px;
 }
 
+.nav-item {
+    margin-right: 2rem;
+    color: black;
+}
+
+.nav-link {
+    color: black;
+}
+
+.navbar-nav{
+    color: black;
+}
+
 .list-element-bodega:hover {
     transform: scale(1.3);
     transition: all 0.3s;
+    color: black;
 }
 
 .list-bodega {
