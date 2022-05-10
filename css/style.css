@@ -15,6 +15,10 @@
     font-family: 'Square Peg', cursive;
 }
 
+body{
+min-height: 100vh;
+}
+
 .div-logo {
     margin: 5px;
     padding: 5px;
@@ -86,6 +90,17 @@ h1 {
     font-family: 'Josefin Sans', sans-serif;
     text-shadow: 1px 2px 5px rgb(0, 0, 0);
     color: white
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 1px 2px 5px rgb(0, 0, 0);
+    color: white
+
 }
 
 .bodega-article,
