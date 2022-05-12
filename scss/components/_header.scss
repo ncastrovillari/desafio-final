@@ -1,0 +1,38 @@
+.header-bodega {
+    font-size: 45px;
+    background-color: #94dbcd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Square Peg', cursive;
+
+    .div-logo {
+        margin: 5px;
+        padding: 5px;
+        display: flex;
+        justify-content: flex-start;
+
+        .header-logo {
+            display: flex;
+            justify-items: flex-start;
+
+
+        }
+    }
+
+    .nav-item {
+        margin-right: 2rem;
+        color: black;
+    }
+
+    .list-element-bodega {
+        &:hover {
+            transform: scale(1.3);
+            transition: all 0.3s;
+            color: black;
+        }
+
+    }
+
+
+}

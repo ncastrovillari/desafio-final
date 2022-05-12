@@ -1,0 +1,19 @@
+.footer-bodega {
+    background-color: #94dbcd;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.redes-footer {
+    &:hover {
+        transform: scale(1.2);
+        transition: all 0.3s;
+    }
+
+    display: flex;
+    width: 60px;
+    justify-content: space-around;
+    padding-right: 25px;
+}
