@@ -1,0 +1,83 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    @media only screen and (max-width:450px) {
+
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    @media only screen and (min-width:450px) and (max-width:1200px) {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main {
+        .section-contacto {
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            position: relative;
+            height: 600px;
+            overflow: hidden;
+
+            @media only screen and (max-width:450px) {
+                display: grid;
+                grid-template-columns: 1fr;
+                max-height: 350px
+            }
+
+            @media only screen and (min-width:450px) and (max-width:1200px) {
+                display: grid;
+                grid-template-columns: 1fr;
+                max-height: 350px
+            }
+
+            h1 {
+                @media only screen and (max-width:450px) {
+                    font-size: 20px;
+                    text-align: center;
+                }
+
+                display: flex;
+                justify-content: center;
+                margin-bottom: 20px;
+                font-size: 35px;
+                font-family: 'Josefin Sans',
+                sans-serif;
+                text-shadow: 1px 2px 5px rgb(0, 0, 0);
+                color: white
+            }
+
+            .contacto-img {
+                position: absolute;
+                z-index: -1;
+
+
+                .foto-portada-contacto {
+                    display: flex;
+                    width: 100%;
+                    word-wrap: normal;
+
+                    @media only screen and (max-width:450px) {
+                        display: none;
+                    }
+                }
+
+                .foto-portada-contacto-mobile {
+                    display: none;
+
+                    @media only screen and (max-width:450px) {
+                        display: block;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

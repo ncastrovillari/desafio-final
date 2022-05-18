@@ -1,127 +1,151 @@
-main {
-    .section-bodega {
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    @media only screen and (max-width:450px) {
+
+        min-height: 100vh;
         display: flex;
-        flex-flow: column;
-        justify-content: center;
-        position: relative;
-        height: 600px;
-        overflow: hidden;
+        flex-direction: column;
 
-        @media only screen and (max-width:450px) {
-            display: grid;
-            grid-template-columns: 1fr;
-            max-height: 350px
-        }
+    }
 
-        @media only screen and (min-width:450px) and (max-width:1200px) {
-            display: grid;
-            grid-template-columns: 1fr;
-            max-height: 350px
-        }
+    @media only screen and (min-width:450px) and (max-width:1200px) {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
 
-        .bodega-article {
-            background-color: #221f1fa1;
-            margin: 20rem;
-            padding: 6rem 4rem;
-            border-radius: .5rem;
-            color: white;
-            letter-spacing: 2px;
-            font-size: 18px;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            text-align: justify;
-            font-family: 'Hind', sans-serif;
+    main {
+        .section-bodega {
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            position: relative;
+            height: 600px;
+            overflow: hidden;
 
             @media only screen and (max-width:450px) {
-                background-color: #221f1fa1;
-                margin: 1rem;
-                padding: 1rem 1rem;
-                border-radius: .5rem;
-                color: white;
-                letter-spacing: 2px;
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-                text-align: justify;
-                font-family: 'Hind', sans-serif;
-                max-height: 320px;
+                display: grid;
+                grid-template-columns: 1fr;
+                max-height: 350px
             }
 
             @media only screen and (min-width:450px) and (max-width:1200px) {
+                display: grid;
+                grid-template-columns: 1fr;
+                max-height: 350px
+            }
+
+            .bodega-article {
                 background-color: #221f1fa1;
-                margin: 1rem;
-                padding: 1rem 1rem;
+                margin: 20rem;
+                padding: 6rem 4rem;
                 border-radius: .5rem;
                 color: white;
                 letter-spacing: 2px;
+                font-size: 18px;
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
                 text-align: justify;
                 font-family: 'Hind', sans-serif;
-                max-height: 320px;
-            }
-        }
 
-        h1 {@media only screen and (max-width:450px){
-            font-size: 20px;
-            text-align: center;
-        }
-            display: flex;
-            justify-content: center;
-            margin-bottom: 20px;
-            font-size: 35px;
-            font-family: 'Josefin Sans', sans-serif;
-            text-shadow: 1px 2px 5px rgb(0, 0, 0);
-            color: white
-        }
+                @media only screen and (max-width:450px) {
+                    background-color: #221f1fa1;
+                    margin: 1rem;
+                    padding: 1rem 1rem;
+                    border-radius: .5rem;
+                    color: white;
+                    letter-spacing: 2px;
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                    text-align: justify;
+                    font-family: 'Hind', sans-serif;
+                    max-height: 320px;
+                }
 
-
-        h2 {@media only screen and (max-width:450px){
-            font-size: 14;
-            text-align: center;
-        }
-            display: flex;
-            justify-content: center;
-            margin-bottom: 20px;
-            font-size: 18px;
-            font-family: 'Josefin Sans', sans-serif;
-            text-shadow: 1px 2px 5px rgb(0, 0, 0);
-            color: white
-        }
-
-        p {
-            @media only screen and (max-width:450px) {
-                font-size: 10px;
-                max-height: 350px;
+                @media only screen and (min-width:450px) and (max-width:1200px) {
+                    background-color: #221f1fa1;
+                    margin: 1rem;
+                    padding: 1rem 1rem;
+                    border-radius: .5rem;
+                    color: white;
+                    letter-spacing: 2px;
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                    text-align: justify;
+                    font-family: 'Hind', sans-serif;
+                    max-height: 320px;
+                }
             }
 
-            @media only screen and (min-width:450px) and (max-width:1200px) {
-                font-size: 12px;
-                max-height: 400px;
-            }
-        }
+            h1 {
+                @media only screen and (max-width:450px) {
+                    font-size: 20px;
+                    text-align: center;
+                }
 
-        .bodega-img {
-            position: absolute;
-            z-index: -1;
-
-            .foto-portada-bodega {
                 display: flex;
-                width: 100%;
-                word-wrap: normal;
+                justify-content: center;
+                margin-bottom: 20px;
+                font-size: 35px;
+                font-family: 'Josefin Sans',
+                sans-serif;
+                text-shadow: 1px 2px 5px rgb(0, 0, 0);
+                color: white
+            }
 
+
+            h2 {
                 @media only screen and (max-width:450px) {
-                    display: none;
+                    font-size: 14;
+                    text-align: center;
+                }
+
+                display: flex;
+                justify-content: center;
+                margin-bottom: 20px;
+                font-size: 18px;
+                font-family: 'Josefin Sans',
+                sans-serif;
+                text-shadow: 1px 2px 5px rgb(0, 0, 0);
+                color: white
+            }
+
+            p {
+                @media only screen and (max-width:450px) {
+                    font-size: 10px;
+                    max-height: 350px;
+                }
+
+                @media only screen and (min-width:450px) and (max-width:1200px) {
+                    font-size: 12px;
+                    max-height: 400px;
                 }
             }
 
-            .foto-portada-bodega-mobile {
-                display: none;
+            .bodega-img {
+                position: absolute;
+                z-index: -1;
 
-                @media only screen and (max-width:450px) {
-                    display: block;
+                .foto-portada-bodega {
+                    display: flex;
                     width: 100%;
+                    word-wrap: normal;
+
+                    @media only screen and (max-width:450px) {
+                        display: none;
+                    }
                 }
 
+                .foto-portada-bodega-mobile {
+                    display: none;
 
+                    @media only screen and (max-width:450px) {
+                        display: block;
+                        width: 100%;
+                    }
+                }
             }
-        }
 
+        }
     }
 }
