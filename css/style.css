@@ -12,8 +12,8 @@
   font-size: 45px;
   background-color: #94dbcd;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   font-family: "Square Peg", cursive;
 }
 .header-bodega .div-logo {

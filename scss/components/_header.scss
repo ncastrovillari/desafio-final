@@ -1,12 +1,14 @@
 @import '../base/estilos';
 @import '../base/mapas';
+@import '../base/mixin';
 
 .header-bodega {
     font-size: map-get($header, font-size-header);
     background-color: map-get($header, bg-color);
-    display: flex;
+    @include flex(flex, center);
+    // display: flex;
     justify-content: space-between;
-    align-items: center;
+    // align-items: center;
     font-family: 'Square Peg', cursive;
 
     .div-logo {
