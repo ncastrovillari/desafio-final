@@ -1,3 +1,5 @@
+@import '../base/estilos';
+
 footer {
     margin-top: auto;
 
@@ -11,7 +13,7 @@ footer {
 }
 
 .footer-bodega {
-    background-color: #94dbcd;
+    background-color: $color-footer;
     height: 100px;
     display: flex;
     justify-content: flex-end;

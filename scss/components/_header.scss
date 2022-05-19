@@ -1,6 +1,8 @@
+@import '../base/estilos';
+
 .header-bodega {
     font-size: 45px;
-    background-color: #94dbcd;
+    background-color: $color-header;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,8 +17,6 @@
         .header-logo {
             display: flex;
             justify-items: flex-start;
-
-
         }
     }
 

@@ -1,3 +1,5 @@
+@import '../base/estilos';
+
 body {
     min-height: 100vh;
     display: flex;
@@ -46,10 +48,10 @@ body {
                 border-radius: .5rem;
                 color: white;
                 letter-spacing: 2px;
-                font-size: 18px;
+                font-size: $font-size-article;
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
                 text-align: justify;
-                font-family: 'Hind', sans-serif;
+                font-family: $font-family;
 
                 @media only screen and (max-width:450px) {
                     background-color: #221f1fa1;
@@ -60,7 +62,7 @@ body {
                     letter-spacing: 2px;
                     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
                     text-align: justify;
-                    font-family: 'Hind', sans-serif;
+                    font-family: $font-family;
                     max-height: 320px;
                 }
 
@@ -73,7 +75,7 @@ body {
                     letter-spacing: 2px;
                     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
                     text-align: justify;
-                    font-family: 'Hind', sans-serif;
+                    font-family: $font-family;
                     max-height: 320px;
                 }
             }
