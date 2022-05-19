@@ -1,8 +1,9 @@
 @import '../base/estilos';
+@import '../base/mapas';
 
 .header-bodega {
-    font-size: 45px;
-    background-color: $color-header;
+    font-size: map-get($header, font-size-header);
+    background-color: map-get($header, bg-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,14 +23,14 @@
 
     .nav-item {
         margin-right: 2rem;
-        color: black;
+        color: map-get($header, nav-color);
     }
 
     .list-element-bodega {
         &:hover {
             transform: scale(1.3);
             transition: all 0.3s;
-            color: black;
+            color: map-get($header, list-element-bodega);
         }
 
     }
