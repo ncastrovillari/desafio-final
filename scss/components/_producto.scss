@@ -1,6 +1,7 @@
 @import '../base/estilos';
 
 body {
+    background-color: #94dbcd;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -129,6 +130,51 @@ body {
                         width: 100%;
                     }
 
+                }
+            }
+        }
+
+        .section-malbec {
+            background-color: #94dbcd;
+            display: flex;
+
+
+            .div-foto-malbec {
+
+                .foto-malbec {
+                    margin: 5px;
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-template-rows: 300px;
+                    object-fit: cover;
+                    -webkit-box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.85);
+                    -moz-box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.85);
+                    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.85);
+                }
+            }
+            .article-malbec {
+                display: flex;
+
+
+
+            }
+        }
+
+        .section-cabernet {
+            background-color: #94dbcd;
+            display: flex;
+
+            .div-foto-cabernet {
+
+                .foto-cabernet {
+                    margin: 5px;
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    grid-template-rows: 300px;
+                    object-fit: cover;
+                    -webkit-box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.85);
+                    -moz-box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.85);
+                    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.85);
                 }
             }
         }
