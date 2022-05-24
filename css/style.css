@@ -3,6 +3,15 @@
   padding: 0;
 }
 
+body main .section-contacto, body main .section-bodega-bis, body main .section-historia, body main .section-bodega {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  position: relative;
+  height: 600px;
+  overflow: hidden;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -39,15 +48,6 @@
 * {
   margin: 0;
   padding: 0;
-}
-
-body main .section-contacto, body main .section-bodega-bis, body main .section-historia, body main .section-bodega {
-  display: flex;
-  justify-content: center;
-  flex-flow: column;
-  position: relative;
-  height: 600px;
-  overflow: hidden;
 }
 
 body {
@@ -242,15 +242,6 @@ body main .section-bodega .contenedor-galeria .foto-galeria .imagen-galeria {
   padding: 0;
 }
 
-body main .section-contacto, body main .section-bodega-bis, body main .section-historia, body main .section-bodega {
-  display: flex;
-  justify-content: center;
-  flex-flow: column;
-  position: relative;
-  height: 600px;
-  overflow: hidden;
-}
-
 body {
   min-height: 100vh;
   display: flex;
@@ -378,15 +369,6 @@ body main .section-historia .historia-img .foto-portada-historia-mobile {
 * {
   margin: 0;
   padding: 0;
-}
-
-body main .section-contacto, body main .section-bodega-bis, body main .section-bodega, body main .section-historia {
-  display: flex;
-  justify-content: center;
-  flex-flow: column;
-  position: relative;
-  height: 600px;
-  overflow: hidden;
 }
 
 body {
@@ -899,15 +881,6 @@ body .contenedor-galeria .foto-galeria .imagen-galeria {
   padding: 0;
 }
 
-body main .section-contacto, body main .section-bodega, body main .section-historia, body main .section-bodega-bis {
-  display: flex;
-  justify-content: center;
-  flex-flow: column;
-  position: relative;
-  height: 600px;
-  overflow: hidden;
-}
-
 body {
   min-height: 100vh;
   display: flex;
@@ -1016,15 +989,6 @@ footer {
 .redes-footer:hover {
   transform: scale(1.2);
   transition: all 0.3s;
-}
-
-body main .section-bodega, body main .section-historia, body main .section-bodega-bis, body main .section-contacto {
-  display: flex;
-  justify-content: center;
-  flex-flow: column;
-  position: relative;
-  height: 600px;
-  overflow: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */

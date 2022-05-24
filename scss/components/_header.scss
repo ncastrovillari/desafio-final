@@ -1,6 +1,5 @@
 @import '../base/estilos';
-@import '../base/mapas';
-@import '../base/mixin';
+
 
 .header-bodega {
     font-size: map-get($header, font-size-header);

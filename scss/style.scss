@@ -1,4 +1,7 @@
 @import '../scss/base/estilos';
+@import '../scss/base/mixin';
+@import '../scss/base/mapas';
+@import '../scss/base/extends';
 @import '../scss/components/header';
 @import '../scss/components/index';
 @import '../scss/components/historia';
@@ -6,6 +9,4 @@
 @import '../scss/components/producto';
 @import '../scss/components/contacto';
 @import '../scss/components/footer';
-@import '../scss/base/mapas';
-@import '../scss/base/extends';
-@import '../scss/base/mixin';
+
